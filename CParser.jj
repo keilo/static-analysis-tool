@@ -87,9 +87,9 @@ public class CParser{
 	}
 	else {
 		System.out.println("C Parser Version 0.1Alpha:  Usage is one of:");
-		System.out.println("         java CParser < inputfile");
+		System.out.println("        java CParser < inputfile");
 		System.out.println("OR");
-		System.out.println("         java CParser inputfile");
+		System.out.println("        java CParser inputfile");
 		return ;
 	}
 	try {

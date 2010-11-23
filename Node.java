@@ -1,12 +1,14 @@
-import java.util.AbstractList;
-import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
 
 // Tree node
+
+ /// bah cba
 
 public class Node {
 
 	private Node parent;
-	private AbstractList<Node> successors;
+	private LinkedList<Node> successors;
 	//private successorsIterator;
 	
 	public void setParent(Node newParent)

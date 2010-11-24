@@ -4,7 +4,7 @@ public class TreeParser_DFS {
 
 	private int depth;
 	private Node node; // current node
-	private LinkedList path;
+	private LinkedList<Node> path;
 	
 	
 	public TreeParser_DFS(Node head)

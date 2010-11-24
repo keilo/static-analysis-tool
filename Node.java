@@ -3,9 +3,11 @@ import java.util.ListIterator;
 
 // Tree node
 
- /// bah cba
-
 public class Node {
+	
+	/*
+	 * depth, while, if,
+	 */
 
 	private Node parent;
 	private LinkedList<Node> successors;

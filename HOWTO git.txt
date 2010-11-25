@@ -16,7 +16,7 @@ STEP 1
 
 Set up ssh keys on your account as explained here:
 http://help.github.com/msysgit-key-setup/
-Make sure you get the “successfully authenticated” message at the end.
+Make sure you get the "successfully authenticated" message at the end.
 If you already have existing ssh keys make sure you follow the instructions precisely.
 
 STEP 2
@@ -37,6 +37,7 @@ git config user.email "your github email"
 
 STEP 4
 
+Configuration is over! Now you can change the code.
 Changed README file in a text editor
 
 git add README

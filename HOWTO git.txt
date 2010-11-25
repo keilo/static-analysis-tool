@@ -1,0 +1,53 @@
+This tutorial demonstrates the use of GIT on departmental server
+
+Information needed:
+
+- github username
+- github email
+
+STEP 0
+
+Git is installed in /local/java/git/bin/git
+To be able to access it you need to add the following line at the end of your ~/.bashrc file:
+
+PATH=$PATH:/local/java/git/bin
+
+STEP 1
+
+Set up ssh keys on your account as explained here:
+http://help.github.com/msysgit-key-setup/
+Make sure you get the “successfully authenticated” message at the end.
+If you already have existing ssh keys make sure you follow the instructions precisely.
+
+STEP 2
+
+Set up local directories and clone the public repository
+
+mkdir project
+cd project
+git clone git@github.com:keilo/static-analysis-tool.git
+cd static-analysis-tool
+
+STEP 3
+
+Configure your username/email
+
+git config user.name "your github username"
+git config user.email "your github email"
+
+STEP 4
+
+Changed README file in a text editor
+
+git add README
+git commit -m "changed readme"
+git push origin master
+
+That's it, your changes are now in the repository!
+
+STEP 5
+
+To pull changes done by someone else use:
+
+git pull origin master
+
